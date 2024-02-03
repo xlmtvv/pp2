@@ -9,6 +9,9 @@ Binary Types:	bytes, bytearray, memoryview
 None Type:	NoneType
 '''
 
+s= '1'
+
+int(s)
 
 
 # Exercise 1
