@@ -14,7 +14,6 @@ def solve(numheads, numlegs):
     print("No solution")
 
 
-
 def filter_prime(nums: list):
 
     def isPrime(n):

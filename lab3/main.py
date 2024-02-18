@@ -34,6 +34,10 @@ class Square(Shape):
 
     def area(self):
         return self.length ** 2
+    
+obj = Square(10)
+
+print(obj.area())
 
 
 
