@@ -2,9 +2,11 @@ def task1(numbers):
     '''
     Write a Python program with builtin function to multiply all the numbers in a list
     '''
-
+    
 
     return eval('*'.join(list(map(str, numbers))))
+
+
 
 
 def task2(s):
@@ -45,4 +47,5 @@ def task5(tup):
     Write a Python program with builtin function that returns True if all elements of the tuple are true.
     '''
     return True if all(tup) else False
+
 

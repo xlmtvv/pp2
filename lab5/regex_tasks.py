@@ -119,3 +119,9 @@ def task10():
 
     print(snakeCase)
 
+pattern = re.compile(r'as')
+
+s = 'ghhghghghabgshghg'
+
+print(len(pattern.findall(s)))
+

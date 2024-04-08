@@ -12,8 +12,7 @@ myClock = pygame.image.load('mainclock.png')
 myClock = pygame.transform.scale(myClock, (600, 600))
 
 
-# hour_arrow = pygame.image.load('hour.png')
-# hour_arrow = pygame.transform.scale(hour_arrow, (23, 166))
+
 minute_arrow = pygame.image.load('rightarm.png') # 30:257
 minute_arrow = pygame.transform.scale(minute_arrow, (800, 700))
 second_arrow = pygame.image.load('leftarm.png')

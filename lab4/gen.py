@@ -25,6 +25,11 @@ def divisible_by_3_and_4(n):
         if i % 3 == 0 and i % 4 == 0:
             yield i
 
+
+for i in divisible_by_3_and_4(25):
+    print(i)
+
+
 # for num in divisible_by_3_and_4(30):
 #     print(num)
 

@@ -78,6 +78,7 @@ def task6():
     #     os.remove(f'{letter}.txt')
         
 
+
 def task7(path1, path2):
     '''
     Write a Python program to copy the contents of a file to another file
@@ -96,5 +97,3 @@ def task8(path):
         print('File exists and has been removed')
     else:
         print(f"Error: File '{path}' does not exist.")
-
-
